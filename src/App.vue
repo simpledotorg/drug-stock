@@ -4,18 +4,21 @@ import HelloWorld from "./components/HelloWorld.vue";
 </script>
 
 <template>
-  <header>
-    <div class="wrapper">
-      <HelloWorld msg="Drug stock" />
+  <div>
 
-      <nav>
-        <RouterLink to="/">Home</RouterLink>
-        <RouterLink to="/about">About</RouterLink>
-      </nav>
-    </div>
-  </header>
-
-  <RouterView />
+    <header>
+      <div class="wrapper">
+        <HelloWorld msg="Drug stock" />
+        
+        <nav>
+          <RouterLink to="/">Home</RouterLink>
+          <RouterLink to="/form">About</RouterLink>
+        </nav>
+      </div>
+    </header>
+    
+    <RouterView />
+  </div>
 </template>
 
 <style scoped>
