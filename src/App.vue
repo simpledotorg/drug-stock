@@ -4,9 +4,9 @@ import HelloWorld from "./components/HelloWorld.vue";
 </script>
 
 <template>
-  <div>
+  <div class="p-0 md:p-10">
 
-    <header>
+    <!-- <header>
       <div class="wrapper">
         <HelloWorld msg="Drug stock" />
         
@@ -15,7 +15,7 @@ import HelloWorld from "./components/HelloWorld.vue";
           <RouterLink to="/form">About</RouterLink>
         </nav>
       </div>
-    </header>
+    </header> -->
     
     <RouterView />
   </div>
